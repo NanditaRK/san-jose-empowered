@@ -1,3 +1,20 @@
+@keyframes up-down{
+    0% {
+      transform:  translateY(-5%) ;
+    }
+    50% {
+      transform:  translateY(5%)  ;
+    }
+    100% {
+        transform:  translateY(-5%)  ;
+      }
+
+  }
+
+
+
+
+
 *{
     box-sizing: border-box;
     font-family: 'Libre Franklin', sans-serif;
@@ -39,6 +56,7 @@ ul{
 .navbar-items{
     color: #5386E4;
     font-size: 30px;
+    font-weight: bolder;
 }
 .contact-button{
     padding: 15px 20px 15px 20px;
@@ -69,6 +87,9 @@ ul{
 .hero-image{
     width: 67.2%;
     height: auto;
+    animation: up-down linear 4s;
+    animation-iteration-count: infinite;
+  
 }
 .hero-message{
     text-align: center;
