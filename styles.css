@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-right: 30px;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-name{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.logo-image{
+    height: 100px;
+    width: 130px;
+}
+.navbar-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    align-items: center;
+}
+.navbar-items{
+    color: #5386E4;
+    font-size: 30px;
+}
+.contact-button{
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background-color: #5386E4;
+    border: none;
+    border-radius: 45px;
+}
+.section{
+    height: 100vh;
+    
+    margin: 0px;
+}
+.hero-section{
+    background-color: #EBEDEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-image-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image{
+    width: 67.2%;
+    height: auto;
+}
+.hero-message{
+    text-align: center;
+    width: 50%;
+}
+.hero-message-text{
+    font-weight: bolder;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;
+
+}
+.hero-message-text-small{
+    font-size: 32px;
+}
+.blue-text{
+    color:#5386E4;
+}
