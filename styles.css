@@ -54,6 +54,16 @@ ul{
     font-size: 30px;
     font-weight: bolder;
 }
+.links{
+    text-decoration: none;
+}
+.links:visited{
+    color: #5386E4;
+}
+.links:hover{
+    position: relative;
+    bottom: 2px;
+}
 .contact-button{
     padding: 15px 20px 15px 20px;
     color: white;
@@ -256,4 +266,34 @@ ul{
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
+}
+.projects-section{
+    height: fit-content;
+    padding: 100px;
+}
+
+.unavailable{
+    width: 100%;
+    text-align: center;
+}
+
+.contact-section{
+    background: #EBEDEE;
+    height: fit-content;
+    padding: 50px;
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+    padding-top: 100px;
+}
+.contact-icon{
+    width: 150px;
+    height: auto;
+}
+.social-link{
+    text-align: center;
+    padding-left: 50px;
 }
