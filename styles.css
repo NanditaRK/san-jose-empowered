@@ -105,6 +105,9 @@ ul{
 .blue-text{
     color:#5386E4;
 }
+.about-section{
+    height: fit-content;
+}
 .section-header{
     font-family: 'Libre Franklin';
     font-style: normal;
@@ -112,7 +115,6 @@ ul{
     font-size: 96px;
     line-height: 116px;
     text-align: center;
-
     color: #5386E4;
 
 }
@@ -162,4 +164,96 @@ ul{
 .person-name{
     text-align: center;
     width: 100%;
+}
+
+.join-section{
+    background: #EBEDEE;
+    height: fit-content;
+    padding: 50px;
+}
+.job-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.job-image-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.job-image{
+    width: 470px;
+    height: auto;
+
+    
+}
+.job-card-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.job-card{
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    width: 80%;
+    height: 400px;
+    margin: 20px;
+    padding: 0px 80px 0px 80px;
+}
+.job-card-title{
+    width: 100%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    text-align: center;
+
+    color: #000000;
+    
+}
+.job-card-description{
+    display: flex;
+    flex-direction: column;
+}
+.bullet-point{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    list-style-type: disc;
+    margin: 15px;
+    color: #787777;
+}
+.join-form-button-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.join-form-button{
+    width: 202px;
+    height: 90px;
+    background: #5386E4;
+    border: none;
+    border-radius: 45px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
 }
