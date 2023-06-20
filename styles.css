@@ -11,10 +11,6 @@
 
   }
 
-
-
-
-
 *{
     box-sizing: border-box;
     font-family: 'Libre Franklin', sans-serif;
@@ -108,4 +104,62 @@ ul{
 }
 .blue-text{
     color:#5386E4;
+}
+.section-header{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+
+    color: #5386E4;
+
+}
+.about-text{
+    width: 100%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.our-team-section{
+    margin-top: 150px;
+}
+.our-team-heading{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #000000;
+}
+.team-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin: 50px;
+}
+.person-image{
+    width: 253px;
+    height: 253px;
+    border-radius: 50%;
+}
+.person-name{
+    text-align: center;
+    width: 100%;
 }
