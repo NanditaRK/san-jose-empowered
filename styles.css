@@ -159,7 +159,7 @@ ul{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .person{
     display: flex;
