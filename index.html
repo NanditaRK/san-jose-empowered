@@ -5,11 +5,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <!-- Font -->
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
   
   <!-- Title -->
   <title>San Jose Empowered</title>
+
   <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
   
   <!-- CSS Stylesheet -->
   <link href="styles.css" rel="stylesheet" type="text/css" />
@@ -17,7 +24,203 @@
 </head>
 
 <body>
+ <!-- Navbar-->
+ <navbar>
+  <div class="logo">
+    <img class="logo-image" src="/images/logo-image.png">
+    <h1 class="logo-name"> San Jose Empowered</h1>
+  </div>
+
+  <ul class="navbar-items-container">
+    <li class="navbar-items"> <a href="#about" class="links about-link">About</a> </li>
+    <li class="navbar-items"> <a href="#join" class="links join-link">Join</a> </li>
+    <li class="navbar-items"> <a href="#projects" class="links projects-link">Projects</a> </li>
+    <li class="navbar-items"> <a href="#contact" class="links contact-link"><button class="navbar-items contact-button"> Contact </button></a> </li>
+
+  </ul>
+  <div class="menu-button-container">
+    <img class="menu-button" src="/images/menu.svg">
+  </div>
+
+ </navbar>
+
+ <!-- Hero -->
+
+ <section id="hero" class="section hero-section">
+
+  <div class="hero-image-container">
+    <img class="hero-image" src="/images/hero-image.png">
+  </div>
+
+  <div class="hero-message">
+    <h1 class="hero-message-text">Create.</h1>
+    <h1 class="hero-message-text blue-text">Help.</h1>
+    <h1 class="hero-message-text">Discover.</h1>
+    <h6 class="hero-message-text-small">with</h6>
+    <h1 class="hero-message-text blue-text">San Jose</h1>
+    <h1 class="hero-message-text">Empowered</h1>
+
+  </div>
+
+
+ </section>
+
+ <section id="about" class="section about-section">
+  <h1 class="section-header blue-text">About</h1>
+  <p class="about-text">We are a highly motivated group of individuals that aim to help those in the San Jose community by using programming to help those in neeed.</p>
+  <div class="our-team-section">
+    <h2 class="our-team-heading">Our Team</h2>
+    <div class="team-row">
+      <div class="person">
+        <img class="person-image" src="/images/people/person_one.png">
+        <h4 class="person-name">Nandita Raj Kumar - Chapter Founder</h4>
+        <p class="person-info">I love to code projects that make an impact on people around me. I started San Jose Empowered to be able to help the lovely community of San Jose through tech.</p>
+      </div>
+      <div class="person">
+        <img class="person-image" src="/images/people/person_two.png">
+        <h4 class="person-name">Abdus Sami Qazi - Social Media Manager</h4>
+        <p class="person-info">Hey all, I am in junior year of high school in India. My interest falls in the category of outdoor activities like badminton, tennis, swimming and I also like reading and most importantly being one who loves nature.</p>
+      </div>
+      <div class="person">
+        <img class="person-image" src="/images/people/person_three.png">
+        <h4 class="person-name">Reshma Sudhakar - Social Media Manager</h4>
+        <p class="person-info">Hi! My name is Reshma! I love swimming and cooking! I joined SJ Empowered for a chance to help businesses in our city.</p>
+      </div>
+      <div class="person">
+        <img class="person-image" src="/images/people/person_four.png">
+        <h4 class="person-name">Eric Nguyen - Frontend Developer</h4>
+        <p class="person-info">Hi! My name is Eric and I am a nerd.</p>
+      </div>
+      <div class="person">
+        <img class="person-image" src="/images/people/person_five.png">
+        <h4 class="person-name">Srushti  - Backend Developer</h4>
+        <p class="person-info">I’m srushti, hiking enthusiast and enjoy photography and video editing in my free time, pursuing software as a career.
+        </p>
+      </div>
+      <!-- Template 
+
+      <div class="person">
+        <img class="person-image" src="/images/teddy-bear.jpg">
+        <h4 class="person-name">Name - Role</h4>
+        <p class="person-info">A little blurb about who you are and maybe their interests</p>
+      </div>
+
+      -->
+      
+      
+    </div>
+  </div>
+ </section>
+
+
+ <section id="join" class="section join-section">
+  <h1 class="section-header blue-text join-header">Join</h1>
+  <div class="job-section left-image">
+    <div class="job-image-container">
+      <img class="job-image" src="/images/frontend.png" > 
+    </div>
+    <div class="job-card-container">
+      <div class="job-card">
+        <h3 class="job-card-title">Frontend Developer</h3>
+        <ul class="job-card-description">
+          <li class="bullet-point"> works with HTML, CSS, and JS Frameworks</li>
+          <li class="bullet-point"> collaborates with Backend and UI designers</li>
+        </ul>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <div class="job-section right-image">
+    
+    <div class="job-card-container">
+      <div class="job-card">
+        <h3 class="job-card-title">Backend Developer</h3>
+        <ul class="job-card-description">
+          <li class="bullet-point"> works on Backend languages such as SpringBoot to connect to databases</li>
+          <li class="bullet-point"> works with Frontend to make a responsive website or app</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="job-image-container">
+      <img class="job-image" src="/images/backend.png" > 
+    </div>
+    
+  </div>
+
+  <div class="job-section left-image">
+    <div class="job-image-container">
+      <img class="job-image" src="/images/outreach.png" > 
+    </div>
+    <div class="job-card-container">
+      <div class="job-card">
+        <h3 class="job-card-title">Outreach</h3>
+        <ul class="job-card-description">
+          <li class="bullet-point"> reaches out to communities to find projects to help them with</li>
+          <li class="bullet-point"> collaborates with Backend and UI designers</li>
+        </ul>
+      </div>
+
+    </div>
+    
+  </div>
  
+  
+  <div class="job-section right-image">
+    
+    <div class="job-card-container">
+      <div class="job-card">
+        <h3 class="job-card-title">Graphic/UI Designer</h3>
+        <ul class="job-card-description">
+          <li class="bullet-point"> designs the layout of websites and web apps</li>
+          <li class="bullet-point"> creates logos, vectors, and other graphics</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="job-image-container">
+      <img class="job-image" src="/images/graphic-and-UI.png" > 
+    </div>
+    
+  </div>
+  <div class="join-form-button-container">
+    <a class="links">
+      <button class="join-form-button"> Join Now </button>
+    </a>
+  
+  </div>
+  
+
+ </section>
+
+ <section id="projects" class="section projects-section">
+  <h1 class="section-header blue-text">Projects</h1>
+  <h1 class="unavailable">Projects are currently ongoing. Check back later.</h1>
+  
+ </section>
+
+ <section id="contact" class="section contact-section">
+  <h1 class="section-header blue-text">Contact</h1>
+  <div class="socials-box">
+    <div class="social-container">
+      <img class="contact-icon" src="/images/mail.png">
+      <h3 class="social-link"><a class="links" href="mailto: sanjose.empowered@gmail.com">sanjose.empowered@gmail.com</a></h3>
+    </div>
+  
+    <div class="social-container">
+      <img class="contact-icon" src="/images/insta.png">
+      <h3 class="social-link"><a class="links" href="https://www.instagram.com/sanjose_empowered/">@sanjose_empowered</a></h3>
+    </div>
+  
+    <div class="social-container">
+      <img class="contact-icon" src="/images/discord.png">
+      <h3 class="social-link"><a class="links" href="https://discord.com/invite/TDbMJYYsr7">San Jose Empowered</a></h3>
+    </div>
+  </div>
+  
+ </section>
 
 
 

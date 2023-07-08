@@ -1,0 +1,422 @@
+@keyframes up-down{
+    0% {
+      transform:  translateY(-5%) ;
+    }
+    50% {
+      transform:  translateY(5%)  ;
+    }
+    100% {
+        transform:  translateY(-5%)  ;
+      }
+
+  }
+
+*{
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-right: 30px;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-name{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.logo-image{
+    height: 100px;
+    width: 130px;
+}
+.navbar-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.navbar-items{
+    color: #5386E4;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.links{
+    text-decoration: none;
+    color: #5386E4;
+}
+.links:visited{
+    color: #5386E4;
+}
+.links:hover{
+    position: relative;
+    bottom: 2px;
+}
+.contact-button{
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background-color: #5386E4;
+    border: none;
+    border-radius: 45px;
+}
+.section{
+    height: 100vh;
+    
+    margin: 0px;
+}
+.hero-section{
+    background-color: #EBEDEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-image-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image{
+    width: 67.2%;
+    height: auto;
+    animation: up-down linear 4s;
+    animation-iteration-count: infinite;
+  
+}
+.hero-message{
+    text-align: center;
+    width: 50%;
+}
+.hero-message-text{
+    font-weight: bolder;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;
+
+}
+.hero-message-text-small{
+    font-size: 32px;
+}
+.blue-text{
+    color:#5386E4;
+}
+.about-section{
+    height: fit-content;
+}
+.section-header{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+    color: #5386E4;
+    width: 100%;
+
+}
+.about-text{
+    width: 100%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.our-team-section{
+    margin-top: 150px;
+}
+.our-team-heading{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #000000;
+}
+.team-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin: 50px;
+}
+.person-image{
+    width: 253px;
+    height: 253px;
+    border-radius: 50%;
+}
+
+.person-name{
+    text-align: center;
+    width: 100%;
+}
+.person-info{
+    text-align: center;
+}
+
+.join-section{
+    background: #EBEDEE;
+    height: fit-content;
+    padding: 50px;
+}
+.job-section{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.job-image-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job-image{
+    width: 80%;
+    height: auto;
+}
+.job-card-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.job-card{
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    width: 100%;
+    min-height: 400px;
+    height: fit-content;
+    margin: 20px;
+    padding: 0px 80px 0px 80px;
+}
+.job-card-title{
+    width: 100%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    text-align: center;
+
+    color: #000000;
+    
+}
+.job-card-description{
+    display: flex;
+    flex-direction: column;
+}
+.bullet-point{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    list-style-type: disc;
+    margin: 15px;
+    color: #787777;
+}
+.join-form-button-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.join-form-button{
+    width: 202px;
+    height: 90px;
+    background: #5386E4;
+    border: none;
+    border-radius: 45px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.projects-section{
+    height: fit-content;
+    padding: 50px;
+}
+
+.unavailable{
+    width: 100%;
+    text-align: center;
+}
+
+.contact-section{
+    background: #EBEDEE;
+    height: fit-content;
+    padding: 50px;
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+}
+.contact-icon{
+    width: 150px;
+    height: auto;
+}
+.social-link{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.socials-box{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+}
+
+.menu-button-container{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.menu-button{
+    width: 30px;
+    height: auto;
+    display: none;
+}
+.navbar-items-container.active{
+  display: flex;
+  color: #5386E4;
+    
+  }
+
+
+@media (max-width: 1024px){
+    .logo-name{
+        font-size: 25px;
+        font-weight: bolder;
+        justify-content: flex-start;
+    }
+    .navbar-items{
+        font-size: 20px;
+    }
+    .bullet-point{
+        font-size: 16px;
+    }
+    .job-card{
+        padding: 0px 20px 0px 20px;
+    }
+    .team-row{
+        padding: 0px;
+    }
+}
+@media (max-width: 800px){
+    
+   .navbar-items{
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-message-text{
+        font-size: 30px;
+    }
+    .menu-button{
+        display: flex;
+       
+    }
+    .social-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    .social-link{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 15px;
+    }
+    .navbar-items-container{
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    navbar{
+        flex-direction: column;
+    }
+    .job-card-title{
+        font-size: 25px;
+    }
+    .job-card{
+        padding: 0px;
+        margin: 15px;
+        height: 200px;
+    }
+    .job-card-container{
+       width: 300px;
+      
+    }
+    .job-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .job-image-container{
+        width: 300px;
+       
+     }
+    .bullet-point{
+        margin: 0px;
+    }
+    .join-section{
+        padding: 15px;
+        margin: 0px 0px 0px 0px;
+        flex-wrap: wrap;
+    }
+    .section-header{
+        font-size: 60px;
+    }
+    .team-row{
+        padding: 0px;
+        justify-content: center;
+    }
+}
+
+@media (max-height: 660px){
+    .hero-message-text{
+        line-height: 50px;
+    }
+}
