@@ -289,9 +289,7 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-   justify-content: center;
     padding-top: 100px;
-    flex-wrap: wrap;
 }
 .contact-icon{
     width: 150px;
@@ -300,6 +298,14 @@ ul{
 .social-link{
     text-align: center;
     padding-left: 50px;
+}
+
+.socials-box{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
 }
 
 .menu-button-container{
@@ -351,6 +357,17 @@ ul{
     .menu-button{
         display: flex;
        
+    }
+    .social-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    .social-link{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 15px;
     }
     .navbar-items-container{
         flex-direction: column;
