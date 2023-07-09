@@ -417,6 +417,6 @@ ul{
 
 @media (max-height: 660px){
     .hero-message-text{
-        line-height: 50px;
+        line-height: 25px;
     }
 }
