@@ -53,17 +53,7 @@ ul{
     font-size: 30px;
     font-weight: bolder;
 }
-.links{
-    text-decoration: none;
-    color: #5386E4;
-}
-.links:visited{
-    color: #5386E4;
-}
-.links:hover{
-    position: relative;
-    bottom: 2px;
-}
+
 .contact-button{
     padding: 15px 20px 15px 20px;
     color: white;
@@ -270,6 +260,9 @@ ul{
     color: #FFFFFF;
     margin: 0 auto;
 }
+.join-now-link{
+    color: white;
+}
 .projects-section{
     height: fit-content;
     padding: 50px;
@@ -323,6 +316,18 @@ ul{
   color: #5386E4;
     
   }
+
+.links{
+    text-decoration: none;
+    color: #5386E4;
+}
+.links:visited{
+    color: #5386E4;
+}
+.links:hover{
+    position: relative;
+    bottom: 2px;
+}
 
 
 @media (max-width: 1024px){
