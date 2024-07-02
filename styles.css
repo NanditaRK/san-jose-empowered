@@ -33,7 +33,7 @@ ul{
     align-items: center;
 }
 .logo-name{
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bolder;
 }
 .logo-image{
@@ -50,7 +50,7 @@ ul{
 }
 .navbar-items{
     color: #5386E4;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -94,7 +94,7 @@ ul{
 .hero-message-text{
     font-weight: bolder;
     font-size: 64px;
-    line-height: 78px;
+    line-height: 50px;
     text-align: center;
     color: #000000;
 
@@ -112,7 +112,7 @@ ul{
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 500;
-    font-size: 96px;
+    font-size: 84px;
     line-height: 116px;
     text-align: center;
     color: #5386E4;
@@ -120,14 +120,15 @@ ul{
 
 }
 .about-text{
-    width: 100%;
+    width: 80%;
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 39px;
     text-align: center;
-
+    margin-left: auto;
+    margin-right: auto;
     color: #000000;
 
 }
@@ -211,6 +212,9 @@ ul{
     height: fit-content;
     margin: 20px;
     padding: 0px 80px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
 }
 .job-card-title{
     width: 100%;
@@ -229,6 +233,7 @@ ul{
 .job-card-description{
     display: flex;
     flex-direction: column;
+
 }
 .bullet-point{
     font-family: 'Libre Franklin';
