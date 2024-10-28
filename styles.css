@@ -57,7 +57,7 @@ ul{
     color: #5386E4;
     font-size: 20px;
     font-weight: bolder;
-    margin: 0 20px 0 20px;
+    margin: 0 50px 0 30px;
 }
 
 .contact-button{
@@ -398,7 +398,12 @@ ul{
     
 }
 
-
+@media (max-width: 1180px){
+    .navbar-items{
+        font-size: 20px;
+        margin: 0px 10px 0px 10px;
+    }
+}
 
 @media (max-width: 1024px){
     .logo-name{
@@ -408,7 +413,9 @@ ul{
     }
     .navbar-items{
         font-size: 20px;
+        margin: 0px 10px 0px 10px;
     }
+    
     .bullet-point{
         font-size: 16px;
     }
